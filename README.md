@@ -39,3 +39,44 @@ You can now test the API by sending a GET request to:
 ```bash
 http://127.0.0.1:80/api/<name>
 ```
+Replace <name> with any name you want to pass. The response will be a JSON object:
+```bash
+{
+  "name": "<name>"
+}
+```
+
+## Pulling DockerImage
+
+The application is also Dockerized to make it easy to deploy anywhere.
+
+### 1. To pull the Docker image, use the following command:
+```bash
+docker pull talha213/flask-api
+```
+
+### 2. Running the Docker Container
+After pulling the image, you can run the container with:
+```bash
+docker run -d -p 80:80 talha213/flask-api
+```
+the app will be accessible at http://localhost:5000.
+
+### 3. Test the API
+You can test the API by sending a GET request to:
+```bash
+http://localhost:80/api/<name>
+```
+
+## **About Me**  
+
+Hi! I'm [Talha](https://github.com/anonymous298), a passionate developer and tech enthusiast focused on building impactful projects. I specialize in **AI/ML**, and crafting efficient solutions for complex problems.  
+
+### **Skills**  
+- 🧠 Artificial Intelligence & Machine Learning  
+- 💻 Web Development (Frontend & Backend)  
+- 📊 Data Analysis & Visualization  
+
+### **Connect with Me**  
+- [GitHub](https://github.com/anonymous298)  
+- [LinkedIn](https://linkedin.com/in/muhmmad-talha937/)
