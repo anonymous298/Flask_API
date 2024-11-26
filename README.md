@@ -16,6 +16,26 @@ This is a basic Flask API that takes a name dynamically via the URL and returns 
 ## Installation and Running Locally
 
 ### 1. Clone the Repository
-```bash
+  ```bash
 git clone <repository_url>
 cd <repository_directory>
+```
+
+### 2. Install Dependencies
+Install the required Python dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Running the Flask App Locally
+Once the dependencies are installed, run the Flask app with:
+```bash
+python app.py
+```
+The app will be accessible at http://127.0.0.1:80.
+
+### 4. Test the API
+You can now test the API by sending a GET request to:
+```bash
+http://127.0.0.1:80/api/<name>
+```
